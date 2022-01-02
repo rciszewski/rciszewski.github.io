@@ -21,6 +21,10 @@ body {
   margin-top: 5%;
 }
 
+#info a {
+  margin: .5rem;
+}
+
 #profilePic {
   width: 10rem;
   height: 15 rem;
@@ -32,11 +36,21 @@ body {
   width: 70%;
 }
 
+#postSection header {
+  display: flex;
+  flex-flow: column wrap;
+}
+
 header {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
 }
 
 #posts {
